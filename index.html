@@ -67,13 +67,26 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--muted);font-s
 @keyframes blink{50%{opacity:0}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
 @media(max-width:760px){.hero{grid-template-columns:1fr;padding:65px 0 45px;min-height:auto}.hero-card{max-width:500px}.cards{grid-template-columns:1fr}.aboutgrid{grid-template-columns:1fr}.navlinks{display:none;position:absolute;left:5%;right:5%;top:69px;padding:18px;background:#0b110d;border:1px solid var(--line);border-radius:15px;flex-direction:column;gap:14px}.navlinks.open{display:flex}.menu{display:block}section{padding:58px 0}.contact{align-items:flex-start;flex-direction:column}.wrap{width:90%}}
+  
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #6bff00;
+  box-shadow: 0 0 15px #6bff00,
+              0 0 35px rgba(107,255,0,0.5);
+  display: block;
+  margin: 0 auto 25px;
+}
+
 </style>
 </head>
 <body>
 <nav><div class="wrap navinner"><a class="logo" href="#home">PRATEEK<span>.</span></a><button class="menu" id="menu" aria-label="Open navigation" aria-expanded="false">☰</button><div class="navlinks" id="navlinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#journey">Journey</a><a href="#contact">Contact</a></div></div></nav>
 <main> 
   
-<img src="" alt="Prateek Vaishy" class="profile-photo">
+<img src="file_00000000cb60821192c6e426d9a7e742.png" alt="Prateek Vaishy" class="profile-photo">
   
 <div class="wrap hero" id="home">
   <div class="reveal">
